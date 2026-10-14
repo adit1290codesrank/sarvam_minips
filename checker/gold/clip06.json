@@ -1,0 +1,8 @@
+[
+{"sent": 0, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 1, "type": "AMT", "hi": "तीन", "value": 3, "status": "plain"},
+{"sent": 2, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 2, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 2, "type": "NAME", "hi": "अंकित", "value": "Ankit", "status": "plain"},
+{"sent": 3, "type": "AMT", "hi": "बारह लाख", "value": 1200000, "status": "plain"}
+]

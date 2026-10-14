@@ -1,0 +1,13 @@
+[
+{"sent": 0, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 1, "type": "NAME", "hi": "रोहित", "value": "Rohit", "status": "plain"},
+{"sent": 1, "type": "NAME", "hi": "प्रिया", "value": "Priya", "status": "plain"},
+{"sent": 2, "type": "DATE", "hi": "पंद्रह अगस्त", "value": [15, 8], "status": "plain"},
+{"sent": 2, "type": "NAME", "hi": "देल्ही", "value": "Delhi", "status": "plain"},
+{"sent": 2, "type": "NAME", "hi": "जयपुर", "value": "Jaipur", "status": "plain"},
+{"sent": 3, "type": "NAME", "hi": "इंडिगो", "value": "IndiGo", "status": "plain"},
+{"sent": 4, "type": "TIME", "hi": "साढ़े दस बजे", "value": "10:30", "status": "plain"},
+{"sent": 4, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 5, "type": "NAME", "hi": "आईफ़ोन", "value": "iPhone", "status": "plain"},
+{"sent": 6, "type": "NAME", "hi": "रोहित", "value": "Rohit", "status": "plain"}
+]

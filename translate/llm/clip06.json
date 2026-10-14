@@ -1,0 +1,8 @@
+[
+{"hi": "यार, मैं कल से ट्राई कर रहा हूँ, द पेमेंट डिडन्ट गो थ्रू।", "literal": "Yaar, I am trying since yesterday, the payment didn't go through.", "fluent": "I've been trying since yesterday, but the payment didn't go through."},
+{"hi": "मैंने तीन बार ट्राई किया, हर बार एरर आ रहा है।", "literal": "I tried three times, every time an error is coming.", "fluent": "I tried three times and got an error every time."},
+{"hi": "अंकित ने बोला था कि इट वोन्ट बी अ प्रॉब्लम, पर अभी भी कुछ नहीं हुआ।", "literal": "Ankit had said that it won't be a problem, but still nothing has happened.", "fluent": "Ankit said it wouldn't be a problem, but nothing has happened yet."},
+{"hi": "बारह लाख का इनवॉइस है, क्लाइंट वेट कर रहा है।", "literal": "It is a twelve lakh invoice, the client is waiting.", "fluent": "It's a ₹12 lakh invoice and the client is waiting."},
+{"hi": "कैन यू प्लीज़ एस्केलेट दिस टू योर सीनियर?", "literal": "Can you please escalate this to your senior?", "fluent": "Can you please escalate this to your senior?"},
+{"hi": "मुझे आज ईवनिंग तक कोई अपडेट चाहिए, वरना डील कैंसल हो जाएगी।", "literal": "I need some update by this evening, otherwise the deal will get cancelled.", "fluent": "I need an update by this evening, or the deal will be cancelled."}
+]

@@ -1,0 +1,11 @@
+[
+{"sent": 0, "type": "AMT", "hi": "थ्री", "value": 3, "status": "plain"},
+{"sent": 0, "type": "NAME", "hi": "पुणे", "value": "Pune", "status": "plain"},
+{"sent": 0, "type": "NAME", "hi": "बानेर", "value": "Baner", "status": "plain"},
+{"sent": 1, "type": "AMT", "hi": "डेढ़ करोड़", "value": 15000000, "status": "plain"},
+{"sent": 1, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 2, "type": "AMT", "hi": "साढ़े तीन लाख", "value": 350000, "status": "plain"},
+{"sent": 3, "type": "AMT", "hi": "सवा लाख", "value": 125000, "status": "plain"},
+{"sent": 4, "type": "TIME", "hi": "चार बजे", "value": "4:00", "status": "abandoned"},
+{"sent": 4, "type": "TIME", "hi": "साढ़े चार बजे", "value": "4:30", "status": "corrected"}
+]

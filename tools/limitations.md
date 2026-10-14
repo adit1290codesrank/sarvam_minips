@@ -1,0 +1,10 @@
+## Known limitations
+
+- **n = 30 boundaries** gives a wide confidence interval; the bootstrap range above is the honest error bar. All 30 are word *starts* at hard spots (amounts, repairs, English switches), so the figure is pessimistic for ordinary words.
+- **MMS_FA frames are 20 ms**, so ±10 ms is the resolution floor; human labellers disagree by roughly 16 ms on Buckeye.
+- **Number parser:** dates come out as plain amounts ("pandrah August" → 15), so dates are labelled by hand in gold; "ek three BHK" is read as the digit string "13"; two falling bare numbers ("nau aath") are AMBIG; a phone number with a pause in the middle splits into two DIG groups; a lone "ek" is dropped as the article ("ek request"), which would also drop a genuine "ek".
+- **Checker failure cases (from the human verdicts):** times said as phrases ("six in the evening") are not parsed; a negation carried by a verb with no cue word ("please *stop* sending") is missed; a bare hour without "o'clock" ("at four… no, four thirty") is not read as a time, so a leaked abandoned time is missed. Negation is a count of cues, not scope.
+- **Self-repairs:** both open MT systems kept every abandoned value ("five lakhs. No. Five crores."); IndicTrans2 even turned "chaar baje… nahi nahi, saadhe chaar" into "4:00 p.m. or 4:30 p.m.". No read/write policy fixes this; it has to come from training targets.
+- **LLM translations** were written by the same model that wrote the checker, so their 100% is checked against blind human verdicts, not the checker alone.
+- **Part E** is an offline simulation on gold transcripts with an external MT model (NLLB-200). That would be a banned cascade in the real system; here it only measures where prefix translation breaks. English words last a fixed 0.35 s. 40 entities: one entity moves accuracy by 2.5 points.
+- **Transcripts** were drafted with Whisper large-v3-turbo, which silently deleted self-corrections, wrote numbers as digits, merged "double chaar" into one digit and hallucinated a "kar do kar do…" loop over trailing silence; every draft was corrected by ear and checked against the audio with the aligner.

@@ -1,0 +1,165 @@
+clip,sent,system,version,type,value,status,hi_roman,sent_roman,en,human
+clip01,0,it2,mt,NAME,"""Rahul""",plain,raahul,"haan helo, mera naam raahul hai, main aapake baink ka puraana kastamar hun.","Hello, my name is Rahul and I am an old customer of your bank.",1
+clip01,0,llm,fluent,NAME,"""Rahul""",plain,raahul,"haan helo, mera naam raahul hai, main aapake baink ka puraana kastamar hun.","Hello, my name is Rahul; I'm a long-time customer of your bank.",1
+clip01,0,llm,literal,NAME,"""Rahul""",plain,raahul,"haan helo, mera naam raahul hai, main aapake baink ka puraana kastamar hun.","Yes hello, my name is Rahul, I am your bank's old customer.",1
+clip01,0,nllb,mt,NAME,"""Rahul""",plain,raahul,"haan helo, mera naam raahul hai, main aapake baink ka puraana kastamar hun.","Yes, hello, my name is Rahul, I am an old customer of your bank.",1
+clip01,2,it2,mt,NEG,1,plain,"lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.",But the account has not been closed yet and charges are also being deducted from it.,1
+clip01,2,llm,fluent,NEG,1,plain,"lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","But the account still hasn't been closed, and charges are still being deducted from it.",1
+clip01,2,llm,literal,NEG,1,plain,"lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","But until now the account has not closed, and charges are also being cut from it.",1
+clip01,2,nllb,mt,NEG,1,plain,"lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","lekin abhi tak akaaunt band nahin hua, aur usamen se caarjes bhi kat rahe hain.","But the account has not been closed yet, and the charges are being deducted from it.",1
+clip01,4,it2,mt,AMT,500000,abandoned,paanc laakh,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.",The loan amount should be around five lakhs. No. Five crores.,0
+clip01,4,llm,fluent,AMT,500000,abandoned,paanc laakh,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.",I need a loan of about five crore.,1
+clip01,4,llm,literal,AMT,500000,abandoned,paanc laakh,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.","Loan amount about five lakh... no no, five crore is needed.",1
+clip01,4,nllb,mt,AMT,500000,abandoned,paanc laakh,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.","The loan amount should be around five lakh... no no, five crore.",0
+clip01,4,it2,mt,AMT,50000000,corrected,paanc karod,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.",The loan amount should be around five lakhs. No. Five crores.,1
+clip01,4,llm,fluent,AMT,50000000,corrected,paanc karod,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.",I need a loan of about five crore.,1
+clip01,4,llm,literal,AMT,50000000,corrected,paanc karod,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.","Loan amount about five lakh... no no, five crore is needed.",1
+clip01,4,nllb,mt,AMT,50000000,corrected,paanc karod,"lon amaaunt lagabhag paanc laakh… nahin nahin, paanc karod ka caahie.","The loan amount should be around five lakh... no no, five crore.",1
+clip02,1,it2,mt,DIG,"""9864432910""",corrected,nau aath che dabal caar tin do naain ek ziro,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.",Note down my number : nine eight seven sorry no nine eight six double four three two nine one zero.,1
+clip02,1,llm,fluent,DIG,"""9864432910""",corrected,nau aath che dabal caar tin do naain ek ziro,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.",Please note my number: 9864432910.,1
+clip02,1,llm,literal,DIG,"""9864432910""",corrected,nau aath che dabal caar tin do naain ek ziro,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.","Note down my number, nine eight seven, sorry no, nine eight six double four three two nine one zero.",1
+clip02,1,nllb,mt,DIG,"""9864432910""",corrected,nau aath che dabal caar tin do naain ek ziro,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.","Take note of my number, nine eight seven, sorry, nine eight six double four three two nine one zero.",1
+clip02,1,it2,mt,DIG,"""987""",abandoned,nau aath saat,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.",Note down my number : nine eight seven sorry no nine eight six double four three two nine one zero.,0
+clip02,1,llm,fluent,DIG,"""987""",abandoned,nau aath saat,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.",Please note my number: 9864432910.,1
+clip02,1,llm,literal,DIG,"""987""",abandoned,nau aath saat,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.","Note down my number, nine eight seven, sorry no, nine eight six double four three two nine one zero.",1
+clip02,1,nllb,mt,DIG,"""987""",abandoned,nau aath saat,"mera nambar not kar lije, nau aath saat, sori nahin, nau aath che dabal caar tin do naain ek ziro.","Take note of my number, nine eight seven, sorry, nine eight six double four three two nine one zero.",0
+clip02,2,it2,mt,DIG,"""910""",plain,naain ek ziro,"main ripit kar deta hun, laast men naain ek ziro hai, haan.","Let me repeat : Lastly, nine is a zero. Yes.",0
+clip02,2,llm,fluent,DIG,"""910""",plain,naain ek ziro,"main ripit kar deta hun, laast men naain ek ziro hai, haan.","To repeat, it ends in 910.",1
+clip02,2,llm,literal,DIG,"""910""",plain,naain ek ziro,"main ripit kar deta hun, laast men naain ek ziro hai, haan.","I will repeat, at the end it is nine one zero, yes.",1
+clip02,2,nllb,mt,DIG,"""910""",plain,naain ek ziro,"main ripit kar deta hun, laast men naain ek ziro hai, haan.","I repeat, the last nine is a zero, yes.",0
+clip02,3,it2,mt,NEG,1,plain,"yah mera parsanal nambar hai, ophis vaala mat lena.","yah mera parsanal nambar hai, ophis vaala mat lena.",This is my personal number.,0
+clip02,3,llm,fluent,NEG,1,plain,"yah mera parsanal nambar hai, ophis vaala mat lena.","yah mera parsanal nambar hai, ophis vaala mat lena.","This is my personal number, not the office one.",1
+clip02,3,llm,literal,NEG,1,plain,"yah mera parsanal nambar hai, ophis vaala mat lena.","yah mera parsanal nambar hai, ophis vaala mat lena.","This is my personal number, don't take the office one.",1
+clip02,3,nllb,mt,NEG,1,plain,"yah mera parsanal nambar hai, ophis vaala mat lena.","yah mera parsanal nambar hai, ophis vaala mat lena.","This is my personal number, not the office one.",1
+clip02,4,it2,mt,NEG,2,plain,"aur pliz subah mat karana, subah main phri nahin hota.","aur pliz subah mat karana, subah main phri nahin hota.","And please don't do it in the morning, I'm not free in the morning.",1
+clip02,4,llm,fluent,NEG,2,plain,"aur pliz subah mat karana, subah main phri nahin hota.","aur pliz subah mat karana, subah main phri nahin hota.",And please don't call in the morning; I'm not free then.,1
+clip02,4,llm,literal,NEG,2,plain,"aur pliz subah mat karana, subah main phri nahin hota.","aur pliz subah mat karana, subah main phri nahin hota.","And please don't do it in the morning, in the morning I am not free.",1
+clip02,4,nllb,mt,NEG,2,plain,"aur pliz subah mat karana, subah main phri nahin hota.","aur pliz subah mat karana, subah main phri nahin hota.","And please don't do it in the morning, I'm not free in the morning.",1
+clip02,5,it2,mt,TIME,"""6:00""",plain,che baje,"shaam ko che baje ke baad kabhi bhi kar dije, thik hai?",Do it anytime after six o'clock in the evening.,1
+clip02,5,llm,fluent,TIME,"""6:00""",plain,che baje,"shaam ko che baje ke baad kabhi bhi kar dije, thik hai?","Call any time after six in the evening, okay?",1
+clip02,5,llm,literal,TIME,"""6:00""",plain,che baje,"shaam ko che baje ke baad kabhi bhi kar dije, thik hai?","In the evening after six o'clock do it anytime, okay?",1
+clip02,5,nllb,mt,TIME,"""6:00""",plain,che baje,"shaam ko che baje ke baad kabhi bhi kar dije, thik hai?","Do it anytime after 6:00 p. m., okay?",1
+clip03,0,it2,mt,NEG,1,plain,"helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","Hello, I had to book a flight, not for myself, but for my family.",1
+clip03,0,llm,fluent,NEG,1,plain,"helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","Hello, I need to book a flight, not for me but for my family.",1
+clip03,0,llm,literal,NEG,1,plain,"helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","Hello, I had to make a flight booking, no, not for myself, for family.",1
+clip03,0,nllb,mt,NEG,1,plain,"helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","helo, mujhe ek phlaait buking karani thi, nahin, apane lie nahin, phaimili ke lie.","Hello, I had to book a flight, no, not for myself, for family.",1
+clip03,1,it2,mt,NAME,"""Priya""",plain,priya,mere bhaai rohit aur unaki vaaiph priya ke lie.,For my brother Rohit and his wife Priya.,1
+clip03,1,llm,fluent,NAME,"""Priya""",plain,priya,mere bhaai rohit aur unaki vaaiph priya ke lie.,It's for my brother Rohit and his wife Priya.,1
+clip03,1,llm,literal,NAME,"""Priya""",plain,priya,mere bhaai rohit aur unaki vaaiph priya ke lie.,For my brother Rohit and his wife Priya.,1
+clip03,1,nllb,mt,NAME,"""Priya""",plain,priya,mere bhaai rohit aur unaki vaaiph priya ke lie.,For my brother Rohit and his wife Priya.,1
+clip03,1,it2,mt,NAME,"""Rohit""",plain,rohit,mere bhaai rohit aur unaki vaaiph priya ke lie.,For my brother Rohit and his wife Priya.,1
+clip03,1,llm,fluent,NAME,"""Rohit""",plain,rohit,mere bhaai rohit aur unaki vaaiph priya ke lie.,It's for my brother Rohit and his wife Priya.,1
+clip03,1,llm,literal,NAME,"""Rohit""",plain,rohit,mere bhaai rohit aur unaki vaaiph priya ke lie.,For my brother Rohit and his wife Priya.,1
+clip03,1,nllb,mt,NAME,"""Rohit""",plain,rohit,mere bhaai rohit aur unaki vaaiph priya ke lie.,For my brother Rohit and his wife Priya.,1
+clip03,2,it2,mt,DATE,"[15, 8]",plain,pandrah agast,unako pandrah agast ko delhi se jayapur jaana hai.,He is scheduled to fly from Delhi to Jaipur on August 15.,1
+clip03,2,llm,fluent,DATE,"[15, 8]",plain,pandrah agast,unako pandrah agast ko delhi se jayapur jaana hai.,They need to fly from Delhi to Jaipur on 15 August.,1
+clip03,2,llm,literal,DATE,"[15, 8]",plain,pandrah agast,unako pandrah agast ko delhi se jayapur jaana hai.,They have to go on fifteen August from Delhi to Jaipur.,1
+clip03,2,nllb,mt,DATE,"[15, 8]",plain,pandrah agast,unako pandrah agast ko delhi se jayapur jaana hai.,He is to travel to Jaipur from Delhi on 15th August.,1
+clip03,2,it2,mt,NAME,"""Delhi""",plain,delhi,unako pandrah agast ko delhi se jayapur jaana hai.,He is scheduled to fly from Delhi to Jaipur on August 15.,1
+clip03,2,llm,fluent,NAME,"""Delhi""",plain,delhi,unako pandrah agast ko delhi se jayapur jaana hai.,They need to fly from Delhi to Jaipur on 15 August.,1
+clip03,2,llm,literal,NAME,"""Delhi""",plain,delhi,unako pandrah agast ko delhi se jayapur jaana hai.,They have to go on fifteen August from Delhi to Jaipur.,1
+clip03,2,nllb,mt,NAME,"""Delhi""",plain,delhi,unako pandrah agast ko delhi se jayapur jaana hai.,He is to travel to Jaipur from Delhi on 15th August.,1
+clip03,2,it2,mt,NAME,"""Jaipur""",plain,jayapur,unako pandrah agast ko delhi se jayapur jaana hai.,He is scheduled to fly from Delhi to Jaipur on August 15.,1
+clip03,2,llm,fluent,NAME,"""Jaipur""",plain,jayapur,unako pandrah agast ko delhi se jayapur jaana hai.,They need to fly from Delhi to Jaipur on 15 August.,1
+clip03,2,llm,literal,NAME,"""Jaipur""",plain,jayapur,unako pandrah agast ko delhi se jayapur jaana hai.,They have to go on fifteen August from Delhi to Jaipur.,1
+clip03,2,nllb,mt,NAME,"""Jaipur""",plain,jayapur,unako pandrah agast ko delhi se jayapur jaana hai.,He is to travel to Jaipur from Delhi on 15th August.,1
+clip03,3,it2,mt,NAME,"""IndiGo""",plain,indigo,"indigo ki phlaait ho to betar hai, unaka eksapiriyans to accha hi rahata hai.",It is better to have an IndiGo flight and they have a good experience.,1
+clip03,3,llm,fluent,NAME,"""IndiGo""",plain,indigo,"indigo ki phlaait ho to betar hai, unaka eksapiriyans to accha hi rahata hai.",IndiGo would be better; they've always had a good experience with it.,1
+clip03,3,llm,literal,NAME,"""IndiGo""",plain,indigo,"indigo ki phlaait ho to betar hai, unaka eksapiriyans to accha hi rahata hai.","If it's an IndiGo flight that's better, their experience is always good.",1
+clip03,3,nllb,mt,NAME,"""IndiGo""",plain,indigo,"indigo ki phlaait ho to betar hai, unaka eksapiriyans to accha hi rahata hai.","Indigo's flight is better, their experience is better.",1
+clip03,4,it2,mt,NEG,1,plain,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.",The timing should be around half past ten and not too early in the morning.,1
+clip03,4,llm,fluent,NEG,1,plain,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","Around 10:30 would be ideal, not a very early morning flight.",1
+clip03,4,llm,literal,NEG,1,plain,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","Timing should be around half past ten, a very early morning one is not needed.",1
+clip03,4,nllb,mt,NEG,1,plain,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","The time should be around 10. 30 o'clock, not too early in the morning.",1
+clip03,4,it2,mt,TIME,"""10:30""",plain,saadhe das baje,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.",The timing should be around half past ten and not too early in the morning.,1
+clip03,4,llm,fluent,TIME,"""10:30""",plain,saadhe das baje,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","Around 10:30 would be ideal, not a very early morning flight.",1
+clip03,4,llm,literal,TIME,"""10:30""",plain,saadhe das baje,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","Timing should be around half past ten, a very early morning one is not needed.",1
+clip03,4,nllb,mt,TIME,"""10:30""",plain,saadhe das baje,"taaiming saadhe das baje ke aasapaas ho, subah bahut jaldi vaali nahin caahie.","The time should be around 10. 30 o'clock, not too early in the morning.",1
+clip03,5,it2,mt,NAME,"""iPhone""",plain,aaifon,pement main apane aaifon se yupiaai se karunga.,I will make the payment from my iPhone via UPI.,1
+clip03,5,llm,fluent,NAME,"""iPhone""",plain,aaifon,pement main apane aaifon se yupiaai se karunga.,I'll pay by UPI from my iPhone.,1
+clip03,5,llm,literal,NAME,"""iPhone""",plain,aaifon,pement main apane aaifon se yupiaai se karunga.,Payment I will do from my iPhone through UPI.,1
+clip03,5,nllb,mt,NAME,"""iPhone""",plain,aaifon,pement main apane aaifon se yupiaai se karunga.,I will pay with UPI from my iPhone.,1
+clip03,6,it2,mt,NAME,"""Rohit""",plain,rohit,aur tikat ki kopi rohit ke mel pe bhi bhej dena.,And also send a copy of the ticket to Rohit's mail.,1
+clip03,6,llm,fluent,NAME,"""Rohit""",plain,rohit,aur tikat ki kopi rohit ke mel pe bhi bhej dena.,And please email a copy of the ticket to Rohit as well.,1
+clip03,6,llm,literal,NAME,"""Rohit""",plain,rohit,aur tikat ki kopi rohit ke mel pe bhi bhej dena.,And send a copy of the ticket to Rohit's mail too.,1
+clip03,6,nllb,mt,NAME,"""Rohit""",plain,rohit,aur tikat ki kopi rohit ke mel pe bhi bhej dena.,And send a copy of the ticket to Rohit's mail too.,1
+clip04,1,it2,mt,AMT,2,plain,do,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,My EMI of twenty-two thousand has been deducted twice this month.,1
+clip04,1,llm,fluent,AMT,2,plain,do,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,"My EMI of ₹22,000 was deducted twice this month.",1
+clip04,1,llm,literal,AMT,2,plain,do,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,My twenty-two thousand EMI got cut twice this month.,1
+clip04,1,nllb,mt,AMT,2,plain,do,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,"My 22,000 EMI has been cut twice this month.",1
+clip04,1,it2,mt,AMT,22000,plain,baais hazaar,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,My EMI of twenty-two thousand has been deducted twice this month.,1
+clip04,1,llm,fluent,AMT,22000,plain,baais hazaar,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,"My EMI of ₹22,000 was deducted twice this month.",1
+clip04,1,llm,literal,AMT,22000,plain,baais hazaar,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,My twenty-two thousand EMI got cut twice this month.,1
+clip04,1,nllb,mt,AMT,22000,plain,baais hazaar,meri baais hazaar ki iemaaai is mahine do baar kat gai hai.,"My 22,000 EMI has been cut twice this month.",1
+clip04,2,it2,mt,AMT,3,plain,tin,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.",The bank statement shows both entries on the 3rd and 5th.,1
+clip04,2,llm,fluent,AMT,3,plain,tin,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.","Both debits show on my bank statement, on the 3rd and the 5th.",1
+clip04,2,llm,literal,AMT,3,plain,tin,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.","In the bank statement both entries are showing, on the third and fifth date.",1
+clip04,2,nllb,mt,AMT,3,plain,tin,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.","The bank statements show both entries, on the third and fifth.",1
+clip04,2,it2,mt,AMT,5,plain,paanc,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.",The bank statement shows both entries on the 3rd and 5th.,1
+clip04,2,llm,fluent,AMT,5,plain,paanc,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.","Both debits show on my bank statement, on the 3rd and the 5th.",1
+clip04,2,llm,literal,AMT,5,plain,paanc,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.","In the bank statement both entries are showing, on the third and fifth date.",1
+clip04,2,nllb,mt,AMT,5,plain,paanc,"baink stetament men donon entriz dikh rahi hain, tin aur paanc taarikh ko.","The bank statements show both entries, on the third and fifth.",1
+clip04,3,it2,mt,NEG,1,plain,"agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","If the extra amount is not refunded by tomorrow, I will complain to the bank.",1
+clip04,3,llm,fluent,NEG,1,plain,"agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","If the extra amount isn't refunded by tomorrow, I'll take the complaint to the banking authorities.",1
+clip04,3,llm,literal,NEG,1,plain,"agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","If by tomorrow the extra amount refund has not happened, then I will complain to banking.",1
+clip04,3,nllb,mt,NEG,1,plain,"agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","agar kal tak ekstra amaaunt riphand nahin hua, to main bainking ko kamplent kar dunga.","If the extra amount is not refunded by tomorrow, I will complain to the bank.",1
+clip04,4,it2,mt,NEG,1,plain,"aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","And please don't send me promotional SMS everyday, it's very irritating.",1
+clip04,4,llm,fluent,NEG,1,plain,"aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.",And please stop sending me promotional SMS every day; it's very irritating.,1
+clip04,4,llm,literal,NEG,1,plain,"aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","And please don't send me promotional SMS every day, it's very irritating.",1
+clip04,4,nllb,mt,NEG,1,plain,"aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","aur pliz mujhe roz roz pramoshanal esaemaes mat bhejana, bahut iriteting hai.","And please don't send me promotional SMS every day, it's very irritating.",1
+clip05,0,it2,mt,AMT,3,plain,thri,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.",We are looking for a 3 BHK flat near Baner in Pune.,1
+clip05,0,llm,fluent,AMT,3,plain,thri,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We're looking at a 3BHK flat in Pune, around Baner.",1
+clip05,0,llm,literal,AMT,3,plain,thri,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We people are looking at a three BHK flat, in Pune, around Baner.",1
+clip05,0,nllb,mt,AMT,3,plain,thri,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We are looking at a three BHK flat, in Pune, near Banner.",1
+clip05,0,it2,mt,NAME,"""Baner""",plain,baaner,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.",We are looking for a 3 BHK flat near Baner in Pune.,1
+clip05,0,llm,fluent,NAME,"""Baner""",plain,baaner,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We're looking at a 3BHK flat in Pune, around Baner.",1
+clip05,0,llm,literal,NAME,"""Baner""",plain,baaner,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We people are looking at a three BHK flat, in Pune, around Baner.",1
+clip05,0,nllb,mt,NAME,"""Baner""",plain,baaner,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We are looking at a three BHK flat, in Pune, near Banner.",1
+clip05,0,it2,mt,NAME,"""Pune""",plain,punne,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.",We are looking for a 3 BHK flat near Baner in Pune.,1
+clip05,0,llm,fluent,NAME,"""Pune""",plain,punne,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We're looking at a 3BHK flat in Pune, around Baner.",1
+clip05,0,llm,literal,NAME,"""Pune""",plain,punne,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We people are looking at a three BHK flat, in Pune, around Baner.",1
+clip05,0,nllb,mt,NAME,"""Pune""",plain,punne,"ham log ek thri biecake phlait dekh rahe hain, punne men, baaner ke aasapaas.","We are looking at a three BHK flat, in Pune, near Banner.",1
+clip05,1,it2,mt,AMT,15000000,plain,dedh karod,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.",The total budget is our one and a half crore and we cannot stretch beyond that.,1
+clip05,1,llm,fluent,AMT,15000000,plain,dedh karod,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.",Our total budget is ₹1.5 crore; we can't stretch beyond that.,1
+clip05,1,llm,literal,AMT,15000000,plain,dedh karod,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","Our total budget is one and a half crore, we cannot stretch more than that.",1
+clip05,1,nllb,mt,AMT,15000000,plain,dedh karod,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","The total budget is Rs 1.5 crore, we cannot stretch more than that.",1
+clip05,1,it2,mt,NEG,1,plain,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.",The total budget is our one and a half crore and we cannot stretch beyond that.,1
+clip05,1,llm,fluent,NEG,1,plain,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.",Our total budget is ₹1.5 crore; we can't stretch beyond that.,1
+clip05,1,llm,literal,NEG,1,plain,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","Our total budget is one and a half crore, we cannot stretch more than that.",1
+clip05,1,nllb,mt,NEG,1,plain,"total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","total bajat hamaara dedh karod hai, usase zyaada strec nahin kar sakate.","The total budget is Rs 1.5 crore, we cannot stretch more than that.",1
+clip05,2,it2,mt,AMT,350000,plain,saadhe tin laakh,daaun pement ham saadhe tin laakh… matalab shuru men itana de sakate hain.,The down payment we can give is three and a half lakhs.,1
+clip05,2,llm,fluent,AMT,350000,plain,saadhe tin laakh,daaun pement ham saadhe tin laakh… matalab shuru men itana de sakate hain.,We can make a down payment of about ₹3.5 lakh upfront.,1
+clip05,2,llm,literal,AMT,350000,plain,saadhe tin laakh,daaun pement ham saadhe tin laakh… matalab shuru men itana de sakate hain.,Down payment we three and a half lakh... meaning at the start we can give this much.,1
+clip05,2,nllb,mt,AMT,350000,plain,saadhe tin laakh,daaun pement ham saadhe tin laakh… matalab shuru men itana de sakate hain.,Down payment we can give three and a half lakh... that's all we can give at the beginning.,1
+clip05,3,it2,mt,AMT,125000,plain,sava laakh,aur mahine ki iemaaai sava laakh tak cal jaaegi.,And the monthly EMI will go up to 1.25 lakh.,1
+clip05,3,llm,fluent,AMT,125000,plain,sava laakh,aur mahine ki iemaaai sava laakh tak cal jaaegi.,And we can manage an EMI of up to ₹1.25 lakh a month.,1
+clip05,3,llm,literal,AMT,125000,plain,sava laakh,aur mahine ki iemaaai sava laakh tak cal jaaegi.,And the monthly EMI up to one and a quarter lakh will work.,1
+clip05,3,nllb,mt,AMT,125000,plain,sava laakh,aur mahine ki iemaaai sava laakh tak cal jaaegi.,And the monthly EMI will go up to Rs.,0
+clip05,4,it2,mt,TIME,"""4:00""",abandoned,caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.",Site visit tomorrow at 4 : 00 p.m. or leave it at 4 : 30 p.m.,0
+clip05,4,llm,fluent,TIME,"""4:00""",abandoned,caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.",Please schedule the site visit for 4:30 tomorrow.,1
+clip05,4,llm,literal,TIME,"""4:00""",abandoned,caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.","Site visit tomorrow at four o'clock... no no, keep it at half past four.",1
+clip05,4,nllb,mt,TIME,"""4:00""",abandoned,caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.","Site visit tomorrow at four... no, no, at four thirty.",0
+clip05,4,it2,mt,TIME,"""4:30""",corrected,saadhe caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.",Site visit tomorrow at 4 : 00 p.m. or leave it at 4 : 30 p.m.,1
+clip05,4,llm,fluent,TIME,"""4:30""",corrected,saadhe caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.",Please schedule the site visit for 4:30 tomorrow.,1
+clip05,4,llm,literal,TIME,"""4:30""",corrected,saadhe caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.","Site visit tomorrow at four o'clock... no no, keep it at half past four.",1
+clip05,4,nllb,mt,TIME,"""4:30""",corrected,saadhe caar baje,"saait vizit kal caar baje… nahin nahin, saadhe caar baje rakh lijie.","Site visit tomorrow at four... no, no, at four thirty.",1
+clip06,0,it2,mt,NEG,1,plain,"yaar, main kal se traai kar raha hun, da pement didant go thru.","yaar, main kal se traai kar raha hun, da pement didant go thru.","Dude, I've been trying since yesterday : The Payment Didn't Go Through.",1
+clip06,0,llm,fluent,NEG,1,plain,"yaar, main kal se traai kar raha hun, da pement didant go thru.","yaar, main kal se traai kar raha hun, da pement didant go thru.","I've been trying since yesterday, but the payment didn't go through.",1
+clip06,0,llm,literal,NEG,1,plain,"yaar, main kal se traai kar raha hun, da pement didant go thru.","yaar, main kal se traai kar raha hun, da pement didant go thru.","Yaar, I am trying since yesterday, the payment didn't go through.",1
+clip06,0,nllb,mt,NEG,1,plain,"yaar, main kal se traai kar raha hun, da pement didant go thru.","yaar, main kal se traai kar raha hun, da pement didant go thru.","Man, I've been trying to get through The Payment Dependent since yesterday.",0
+clip06,1,it2,mt,AMT,3,plain,tin,"mainne tin baar traai kiya, har baar erar a raha hai.",I have tried three times and every time there is an error.,1
+clip06,1,llm,fluent,AMT,3,plain,tin,"mainne tin baar traai kiya, har baar erar a raha hai.",I tried three times and got an error every time.,1
+clip06,1,llm,literal,AMT,3,plain,tin,"mainne tin baar traai kiya, har baar erar a raha hai.","I tried three times, every time an error is coming.",1
+clip06,1,nllb,mt,AMT,3,plain,tin,"mainne tin baar traai kiya, har baar erar a raha hai.","I tried three times, and every time I got an error.",1
+clip06,2,it2,mt,NAME,"""Ankit""",plain,ankit,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.",Ankit had said that it won't be a problem but still nothing happened.,1
+clip06,2,llm,fluent,NAME,"""Ankit""",plain,ankit,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","Ankit said it wouldn't be a problem, but nothing has happened yet.",1
+clip06,2,llm,literal,NAME,"""Ankit""",plain,ankit,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","Ankit had said that it won't be a problem, but still nothing has happened.",1
+clip06,2,nllb,mt,NAME,"""Ankit""",plain,ankit,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","Ankit had said that it would be a problem, but still nothing happened.",1
+clip06,2,it2,mt,NEG,2,plain,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.",Ankit had said that it won't be a problem but still nothing happened.,1
+clip06,2,llm,fluent,NEG,2,plain,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","Ankit said it wouldn't be a problem, but nothing has happened yet.",1
+clip06,2,llm,literal,NEG,2,plain,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","Ankit had said that it won't be a problem, but still nothing has happened.",1
+clip06,2,nllb,mt,NEG,2,plain,"ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","ankit ne bola tha ki it vont bi a problam, par abhi bhi kuch nahin hua.","Ankit had said that it would be a problem, but still nothing happened.",0
+clip06,3,it2,mt,AMT,1200000,plain,baarah laakh,"baarah laakh ka inavois hai, klaaint vet kar raha hai.",There is an invoice of twelve lakhs and the client is waiting.,1
+clip06,3,llm,fluent,AMT,1200000,plain,baarah laakh,"baarah laakh ka inavois hai, klaaint vet kar raha hai.",It's a ₹12 lakh invoice and the client is waiting.,1
+clip06,3,llm,literal,AMT,1200000,plain,baarah laakh,"baarah laakh ka inavois hai, klaaint vet kar raha hai.","It is a twelve lakh invoice, the client is waiting.",1
+clip06,3,nllb,mt,AMT,1200000,plain,baarah laakh,"baarah laakh ka inavois hai, klaaint vet kar raha hai.","There is an invoice of 12 lakhs, the client is waiting.",1

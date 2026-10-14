@@ -1,0 +1,8 @@
+[
+{"hi": "हाँ, अभी मैं मीटिंग में हूँ, तो आप मुझे थोड़ी देर बाद कॉल बैक कीजेगा।", "literal": "Yes, right now I am in a meeting, so you call me back after a little while.", "fluent": "I'm in a meeting right now, so please call me back in a little while."},
+{"hi": "मेरा नंबर नोट कर लीजे, नौ आठ सात, सॉरी नहीं, नौ आठ छे डबल चार तीन दो नाइन एक ज़ीरो।", "literal": "Note down my number, nine eight seven, sorry no, nine eight six double four three two nine one zero.", "fluent": "Please note my number: 9864432910."},
+{"hi": "मैं रिपीट कर देता हूँ, लास्ट में नाइन एक ज़ीरो है, हाँ।", "literal": "I will repeat, at the end it is nine one zero, yes.", "fluent": "To repeat, it ends in 910."},
+{"hi": "यह मेरा पर्सनल नंबर है, ऑफिस वाला मत लेना।", "literal": "This is my personal number, don't take the office one.", "fluent": "This is my personal number, not the office one."},
+{"hi": "और प्लीज़ सुबह मत करना, सुबह मैं फ्री नहीं होता।", "literal": "And please don't do it in the morning, in the morning I am not free.", "fluent": "And please don't call in the morning; I'm not free then."},
+{"hi": "शाम को छे बजे के बाद कभी भी कर दीजे, ठीक है?", "literal": "In the evening after six o'clock do it anytime, okay?", "fluent": "Call any time after six in the evening, okay?"}
+]

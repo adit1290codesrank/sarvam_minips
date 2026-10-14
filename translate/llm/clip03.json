@@ -1,0 +1,9 @@
+[
+{"hi": "हेलो, मुझे एक फ्लाइट बुकिंग करनी थी, नहीं, अपने लिए नहीं, फैमिली के लिए।", "literal": "Hello, I had to make a flight booking, no, not for myself, for family.", "fluent": "Hello, I need to book a flight, not for me but for my family."},
+{"hi": "मेरे भाई रोहित और उनकी वाइफ प्रिया के लिए।", "literal": "For my brother Rohit and his wife Priya.", "fluent": "It's for my brother Rohit and his wife Priya."},
+{"hi": "उनको पंद्रह अगस्त को देल्ही से जयपुर जाना है।", "literal": "They have to go on fifteen August from Delhi to Jaipur.", "fluent": "They need to fly from Delhi to Jaipur on 15 August."},
+{"hi": "इंडिगो की फ्लाइट हो तो बेटर है, उनका एक्सपीरियंस तो अच्छा ही रहता है।", "literal": "If it's an IndiGo flight that's better, their experience is always good.", "fluent": "IndiGo would be better; they've always had a good experience with it."},
+{"hi": "टाइमिंग साढ़े दस बजे के आसपास हो, सुबह बहुत जल्दी वाली नहीं चाहिए।", "literal": "Timing should be around half past ten, a very early morning one is not needed.", "fluent": "Around 10:30 would be ideal, not a very early morning flight."},
+{"hi": "पेमेंट मैं अपने आईफ़ोन से यूपीआई से करूँगा।", "literal": "Payment I will do from my iPhone through UPI.", "fluent": "I'll pay by UPI from my iPhone."},
+{"hi": "और टिकट की कॉपी रोहित के मेल पे भी भेज देना।", "literal": "And send a copy of the ticket to Rohit's mail too.", "fluent": "And please email a copy of the ticket to Rohit as well."}
+]

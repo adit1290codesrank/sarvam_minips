@@ -1,0 +1,9 @@
+[
+{"hi": "हाँ हेलो, मेरा नाम राहुल है, मैं आपके बैंक का पुराना कस्टमर हूँ।", "literal": "Yes hello, my name is Rahul, I am your bank's old customer.", "fluent": "Hello, my name is Rahul; I'm a long-time customer of your bank."},
+{"hi": "मैंने पिछले महीने एक रिक्वेस्ट डाली थी अपना पुराना सेविंग अकाउंट बंद करने की।", "literal": "Last month I had put in a request to close my old saving account.", "fluent": "Last month I submitted a request to close my old savings account."},
+{"hi": "लेकिन अभी तक अकाउंट बंद नहीं हुआ, और उसमें से चार्जेस भी कट रहे हैं।", "literal": "But until now the account has not closed, and charges are also being cut from it.", "fluent": "But the account still hasn't been closed, and charges are still being deducted from it."},
+{"hi": "दूसरी बात, मुझे एक होम लोन के बारे में पूछना था।", "literal": "Second thing, I had to ask about a home loan.", "fluent": "Also, I wanted to ask about a home loan."},
+{"hi": "लोन अमाउंट लगभग पाँच लाख… नहीं नहीं, पाँच करोड़ का चाहिए।", "literal": "Loan amount about five lakh... no no, five crore is needed.", "fluent": "I need a loan of about five crore."},
+{"hi": "कितने साल का टेन्योर मिलेगा, और इंटरेस्ट रेट क्या चल रहा अभी?", "literal": "How many years' tenure will I get, and what interest rate is going on now?", "fluent": "What tenure can I get, and what's the current interest rate?"},
+{"hi": "और इसके लिए कौन कौन से डॉक्यूमेंट्स लगेंगे?", "literal": "And for this which which documents will be needed?", "fluent": "And which documents will I need for this?"}
+]

@@ -1,0 +1,6 @@
+[
+{"sent": 0, "type": "NAME", "hi": "राहुल", "value": "Rahul", "status": "plain"},
+{"sent": 2, "type": "NEG", "hi": "", "value": 1, "status": "plain"},
+{"sent": 4, "type": "AMT", "hi": "पाँच लाख", "value": 500000, "status": "abandoned"},
+{"sent": 4, "type": "AMT", "hi": "पाँच करोड़", "value": 50000000, "status": "corrected"}
+]
