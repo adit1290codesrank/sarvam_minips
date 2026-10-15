@@ -1,0 +1,422 @@
+[
+ {
+  "regime": "oracle",
+  "k": 1,
+  "AL_s": 0.6324103554877395,
+  "LAAL_s": 0.6324103554877395,
+  "StartOffset_s": 0.25666666666666665,
+  "EndOffset_s": 0.8191666666666872,
+  "pauses_gt_250ms": 41,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "oracle",
+  "k": 2,
+  "AL_s": 0.9650512551057924,
+  "LAAL_s": 0.9650512551057924,
+  "StartOffset_s": 0.6401666666666667,
+  "EndOffset_s": 1.1576666666666888,
+  "pauses_gt_250ms": 39,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "oracle",
+  "k": 3,
+  "AL_s": 1.2634383875307424,
+  "LAAL_s": 1.2634383875307424,
+  "StartOffset_s": 0.9036666666666666,
+  "EndOffset_s": 1.3795000000000233,
+  "pauses_gt_250ms": 38,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "oracle",
+  "k": 4,
+  "AL_s": 1.5901933524446827,
+  "LAAL_s": 1.5901933524446827,
+  "StartOffset_s": 1.274,
+  "EndOffset_s": 1.711166666666691,
+  "pauses_gt_250ms": 37,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "oracle",
+  "k": 5,
+  "AL_s": 1.9158220157319723,
+  "LAAL_s": 1.9158220157319723,
+  "StartOffset_s": 1.6341666666666665,
+  "EndOffset_s": 2.029666666666689,
+  "pauses_gt_250ms": 38,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "oracle",
+  "k": 7,
+  "AL_s": 2.5507258962685873,
+  "LAAL_s": 2.5507258962685873,
+  "StartOffset_s": 2.2511666666666668,
+  "EndOffset_s": 2.6013333333333577,
+  "pauses_gt_250ms": 35,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "oracle",
+  "k": 10,
+  "AL_s": 3.35585540302378,
+  "LAAL_s": 3.35585540302378,
+  "StartOffset_s": 3.3816666666666664,
+  "EndOffset_s": 3.3303333333333565,
+  "pauses_gt_250ms": 27,
+  "entity_acc": 0.875,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 1.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 1,
+  "AL_s": 0.70232431075377,
+  "LAAL_s": 0.7743850324843325,
+  "StartOffset_s": 0.25666666666666665,
+  "EndOffset_s": 0.7236666666666789,
+  "pauses_gt_250ms": 52,
+  "entity_acc": 0.65,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 0.9090909090909091,
+   "NEG": 0.5,
+   "AMT": 0.7272727272727273,
+   "DIG": 0.5,
+   "TIME": 0.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 2,
+  "AL_s": 0.9445452199398177,
+  "LAAL_s": 1.0664836698647095,
+  "StartOffset_s": 0.6401666666666667,
+  "EndOffset_s": 1.6840000000000124,
+  "pauses_gt_250ms": 47,
+  "entity_acc": 0.675,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.4166666666666667,
+   "AMT": 0.7272727272727273,
+   "DIG": 1.0,
+   "TIME": 0.0,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 3,
+  "AL_s": 1.2998491136236703,
+  "LAAL_s": 1.3961843145223407,
+  "StartOffset_s": 0.9036666666666666,
+  "EndOffset_s": 1.7838333333333505,
+  "pauses_gt_250ms": 38,
+  "entity_acc": 0.75,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.5,
+   "AMT": 0.8181818181818182,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 4,
+  "AL_s": 1.6383812300581506,
+  "LAAL_s": 1.7217891272494568,
+  "StartOffset_s": 1.274,
+  "EndOffset_s": 1.646333333333357,
+  "pauses_gt_250ms": 35,
+  "entity_acc": 0.825,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.8181818181818182,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 5,
+  "AL_s": 1.8909579597587067,
+  "LAAL_s": 1.9617387632083303,
+  "StartOffset_s": 1.6341666666666665,
+  "EndOffset_s": 2.588333333333358,
+  "pauses_gt_250ms": 36,
+  "entity_acc": 0.7,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 0.9090909090909091,
+   "NEG": 0.4166666666666667,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.3333333333333333,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 7,
+  "AL_s": 2.4941000190756037,
+  "LAAL_s": 2.5280175003208893,
+  "StartOffset_s": 2.2511666666666668,
+  "EndOffset_s": 2.5918333333333563,
+  "pauses_gt_250ms": 33,
+  "entity_acc": 0.825,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.3333333333333333,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "prefix",
+  "k": 10,
+  "AL_s": 3.3654836924974636,
+  "LAAL_s": 3.376344810655621,
+  "StartOffset_s": 3.3816666666666664,
+  "EndOffset_s": 3.6220000000000243,
+  "pauses_gt_250ms": 28,
+  "entity_acc": 0.9,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.9166666666666666,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 1,
+  "AL_s": 1.357186649044524,
+  "LAAL_s": 1.415058207675951,
+  "StartOffset_s": 0.25666666666666665,
+  "EndOffset_s": 1.4455000000000282,
+  "pauses_gt_250ms": 43,
+  "entity_acc": 0.775,
+  "n_entities": 40,
+  "abandoned_leaked": "2/3",
+  "by_type": {
+   "NAME": 0.9090909090909091,
+   "NEG": 0.75,
+   "AMT": 0.7272727272727273,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 2,
+  "AL_s": 1.9128065106823982,
+  "LAAL_s": 1.975933917001049,
+  "StartOffset_s": 0.6401666666666667,
+  "EndOffset_s": 2.7290000000000294,
+  "pauses_gt_250ms": 35,
+  "entity_acc": 0.75,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.5833333333333334,
+   "AMT": 0.7272727272727273,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 3,
+  "AL_s": 2.151950961911966,
+  "LAAL_s": 2.225888129968594,
+  "StartOffset_s": 0.9036666666666666,
+  "EndOffset_s": 2.7895000000000287,
+  "pauses_gt_250ms": 33,
+  "entity_acc": 0.85,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 4,
+  "AL_s": 2.333945679696331,
+  "LAAL_s": 2.3817864281294105,
+  "StartOffset_s": 1.274,
+  "EndOffset_s": 2.218000000000025,
+  "pauses_gt_250ms": 29,
+  "entity_acc": 0.85,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 5,
+  "AL_s": 2.603738762106381,
+  "LAAL_s": 2.651378855458162,
+  "StartOffset_s": 2.0778333333333334,
+  "EndOffset_s": 3.1053333333333675,
+  "pauses_gt_250ms": 30,
+  "entity_acc": 0.825,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 0.9090909090909091,
+   "NEG": 0.75,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 7,
+  "AL_s": 3.1009718033643408,
+  "LAAL_s": 3.1182017029238454,
+  "StartOffset_s": 2.6046666666666667,
+  "EndOffset_s": 2.964333333333363,
+  "pauses_gt_250ms": 27,
+  "entity_acc": 0.825,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.6666666666666666,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ },
+ {
+  "regime": "adaptive",
+  "k": 10,
+  "AL_s": 3.7141080456566202,
+  "LAAL_s": 3.721260170176837,
+  "StartOffset_s": 3.4651666666666667,
+  "EndOffset_s": 3.8828333333333664,
+  "pauses_gt_250ms": 25,
+  "entity_acc": 0.9,
+  "n_entities": 40,
+  "abandoned_leaked": "3/3",
+  "by_type": {
+   "NAME": 1.0,
+   "NEG": 0.9166666666666666,
+   "AMT": 0.9090909090909091,
+   "DIG": 0.5,
+   "TIME": 0.6666666666666666,
+   "DATE": 1.0
+  }
+ }
+]

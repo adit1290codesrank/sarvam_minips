@@ -1,5 +1,5 @@
 __pycache__/
 *.pyc
-out/
+/out/
 clips/16k/
 clips/24k/
