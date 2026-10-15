@@ -5,7 +5,7 @@ Usage:
     python tools/list_cited_sources.py report.md --stop "## Appendix"                  # ignore links after a heading
 
 Prints one markdown row per distinct URL: number, link text, and the section where it is first cited.
-Fill in a one-line "what it told us" for each row before submitting.
+Fill in a one-line "what it told me" for each row before submitting.
 """
 import argparse
 import re
